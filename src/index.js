@@ -9,7 +9,7 @@ let ele2 = React.creatElement("h1", {
   }
 }, 666)
 
-console.log(ele2)
+//vdom => real dom
 ReactDOM.render(
   ele2,
   document.getElementById('root')
